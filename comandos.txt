@@ -1,0 +1,5 @@
+composer create-project --prefer-dist laravel/laravel crud-productos "10.*"
+
+php artisan make:model Producto -m
+
+php artisan make:controller ProductoController --resource
